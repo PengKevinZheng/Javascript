@@ -16,4 +16,12 @@
              var b= 20; //局部变量
                 x=30;  //全局变量
             }
-            </script>
+            </script>  
+##DOM对象：  
+        JavaScript可以改变所有的HTML元素，HTML属性，CSS样式。  
+        1.在操作HTML元素时，绝度不要在文档加载完之后使用document.write(...)，这会覆盖文档内容。  
+        2.通过id找到HTML元素：document.getElementById("id")  
+          通过标签名找到HTML元素：document.getElementByTagName("tag")  
+        3.改变HTML内容:  
+          使用属性：innerHTML  
+        4.改变属性：document.getElementById("id").attribute = "..."; 此处的attribute代表属性名。
