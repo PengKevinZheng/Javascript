@@ -24,4 +24,5 @@
           通过标签名找到HTML元素：document.getElementByTagName("tag")  
         3.改变HTML内容:  
           使用属性：innerHTML  
-        4.改变属性：document.getElementById("id").attribute = "..."; 此处的attribute代表属性名。
+        4.改变属性：document.getElementById("id").attribute = "..."; 此处的attribute代表属性名。  
+        5.改变CSS样式： documetn.getElementById("id").style.attribute = new style;
