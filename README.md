@@ -10,10 +10,10 @@
 
 ##变量  
 全局变量和局部变量：  
-<script>
-  var a=10; //全局变量
-  function(){
-    var b= 20; //局部变量
-    x=30;  //全局变量
-  }
-</script>
+    <script>
+      var a=10; //全局变量
+      function(){
+        var b= 20; //局部变量
+        x=30;  //全局变量
+      }
+    </script>
